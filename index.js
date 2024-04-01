@@ -21,22 +21,22 @@ const {google} = require('googleapis');
 const {WebhookClient} = require('dialogflow-fulfillment');
 
 // Enter your calendar ID below and service account JSON below
-const calendarId = "6994f60d091ea46b6eb2d0ed3f6bb6e3729498c965eeb4db1797c5ff117391d7@group.calendar.google.com"; //這邊換成你的calendar ID
+const calendarId = "xxxxxxxxxxxxxxxxxxxx@group.calendar.google.com"; //這邊換成你的calendar ID
 
 const serviceAccount = {
  "type": "service_account",
- "project_id": "project-for-ai-bot-test",
- "private_key_id": "4f87ca6011fa1f580e579376dc3d02824d30a7ba",
+ "project_id": "",
+ "private_key_id": "",
  "private_key": "",
- "client_email": "calendarapi-for-bot@project-for-ai-bot-test.iam.gserviceaccount.com",
- "client_id": "106905150538970909057",
- "auth_uri": "https://accounts.google.com/o/oauth2/auth",
- "token_uri": "https://oauth2.googleapis.com/token",
- "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
- "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/calendarapi-for-bot%40project-for-ai-bot-test.iam.gserviceaccount.com",
- "universe_domain": "googleapis.com"
+ "client_email": "",
+ "client_id": "",
+ "auth_uri": "",
+ "token_uri": "",
+ "auth_provider_x509_cert_url": "",
+ "client_x509_cert_url": "",
+ "universe_domain": ""
 }
-; // 這邊換成你的JSON金鑰 從 {"type": "service_account",...開始複製貼上
+; // 這邊換成你自己的JSON金鑰 從 {"type": "service_account",...開始複製貼上全部
 
 
 // Set up Google Calendar Service account credentials
